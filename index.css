@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    position: fixed;
+    background-color: #3abcef;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo{
+    font-size: 25px;
+    position: relative;
+    left: 5%;
+    color: #fff;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+nav ul{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline;
+    line-height: 70px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: rgb(49, 49, 214);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.main_img{
+    width: 100%;
+    height: 300px;
+}
+
+.section1{
+    padding-top: 70px;
+}
+
+.img_text{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: #fff;
+    background-color: #3abcef;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 35px;
+}
+
+.welcome_img{
+    width: 100%;
+    height: 250px;
+}
+
+.container{
+    padding-top: 70px;
+}
+
+.teacher{
+    width: 90%;
+    height: 200px;
+}
+
+.lable_text{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.input_deg{
+    width: 30%;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid blue;
+}
+
+.adm_int{
+    padding-top: 10px;
+}
+
+.input_txt{
+    width: 30%;
+    height: 120px;
+    border-radius: 25px;
+    border: 1px solid blue;
+}
+
+#submit{
+    position: relative;
+    width: 15%;
+    left: 5%;
+}
+
+footer{
+    background-color: #000;
+    height: 70px;
+    width: 100%;
+}
+
+.footer_text{
+    text-align: center;
+    color: #fff;
+    top: 20%;
+    position: relative;
+}
+
+.adm{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.form_deg{
+    padding-top: 200px;
+}
+
+.lable_deg{
+    display: inline-block;
+    color: #3abcef;
+    width: 100px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.login_form{
+    background-color: #000;
+    width: 400px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+
+.title_deg{
+    background-color: #3abcef;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+
+.body_deg{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
